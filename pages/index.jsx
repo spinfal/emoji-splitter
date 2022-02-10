@@ -1,15 +1,24 @@
 import Head from 'next/head'
 import 'emoji-mart/css/emoji-mart.css'
 import { Picker } from 'emoji-mart'
-import { Global } from '../components/Global'
+import { Global } from '../components/Global.example'
 
 export default function Home() {
   return (
     <div className='flex justify-center'>
       <Head>
         <title>{Global.title}</title>
-        <meta name="description" content="Split emojis and find out what each one is made of, more or less." />
-        <meta name="charset" content="utf-8" />
+        <meta name="title" content={Global.title} />
+        <meta name="description" content="Split an emoji into its combined emojis and see what most emojis are made of." />
+        <meta name="keywords" content="emoji, simple, react.js, next.js, split, clean, information" />
+        <meta name="robots" content="index, follow" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="language" content="English" />
+        <meta name="author" content="Spinfal" />
+        <meta property="og:image" content={Global.metaImage} />
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:image" content={Global.metaImage} />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
