@@ -1,3 +1,7 @@
+<p align="center">
+    <img src="https://lol.spin.rip/r/spin_A8DYcKENIX.png" alt="Project Preview" width="200" />
+</p>
+
 # Emoji Splitter
 
 Recently I learned that most emojis can be split into two or more parts. For example, the emoji 🧑‍🌾 would be split into two (technically three) parts: 🧑 and 🌾.
