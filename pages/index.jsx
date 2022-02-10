@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import 'emoji-mart/css/emoji-mart.css'
 import { Picker } from 'emoji-mart'
-import { Global } from '../components/Global.example'
+import { Global } from '../components/Global.js'
 
 export default function Home() {
   return (
