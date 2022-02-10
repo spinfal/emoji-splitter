@@ -13,7 +13,9 @@ The code to split the emoji into different parts is:
 
 ## Getting Started
 
-First, run the development server:
+First, rename [Global.example.js](components/Global.example.js) to `Global.js`.
+
+Second, run the development server:
 
 ```bash
 npm run dev
