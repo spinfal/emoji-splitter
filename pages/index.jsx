@@ -8,6 +8,7 @@ export default function Home() {
     <div className='flex justify-center'>
       <Head>
         <title>{Global.title}</title>
+        <meta property="og:type" content="website" />
         <meta name="title" content={Global.title} />
         <meta name="description" content="Split an emoji into its combined emojis and see what most emojis are made of." />
         <meta name="keywords" content="emoji, simple, react.js, next.js, split, clean, information" />
