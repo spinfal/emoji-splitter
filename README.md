@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://lol.spin.rip/r/spin_A8DYcKENIX.png" alt="Project Preview" />
+    <img src="https://lol.spin.rip/r/spin_A8DYcKENIX.png" alt="Project Preview" width="260" />
 </p>
 
 # Emoji Splitter
