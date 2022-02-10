@@ -1,6 +1,11 @@
 # Emoji Splitter
 
-Recently I learned that most emojis can be split into two or more parts. For example, the emoji 🧑‍🌾 would be split into two parts: 🧑 and 🌾.
+Recently I learned that most emojis can be split into two or more parts. For example, the emoji 🧑‍🌾 would be split into two (technically three) parts: 🧑 and 🌾.
+
+The code to split the emoji into different parts is:
+```javascript
+[...'🧑‍🌾']
+```
 
 ## Getting Started
 
